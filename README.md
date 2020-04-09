@@ -156,7 +156,7 @@ So, we first filter the data with "total population" > 100000 (here, we can use 
 
 Furthermore, we have defined a new dataframe with just one column "total population" and plot the bar graph. Here,we already set  "county" as an index so it will come in X-axis. 
 
-In the bar graph, we used "logy = True" because our dataset has so many differences in their numbers and to plot that all together we used "logy". Because of that, in Y-axis numbers will come in a power of 10. "rot = 90" is to set x axis labels at 90 degree. And aligned it in the center of the respective bar with the help of "align = 'center'". Used "alpha" to set the color density of the bar and gave it required figure size and title.
+In the bar graph, we used "logy = True" because our dataset has so many differences in their numbers and to plot that all together we used "logy". Because of that, in Y-axis numbers will come in a power of 10. "rot = 90" is to set x axis labels at 90 degree. And aligned it in the center of the respective bar with the help of "align = 'center'". Used "alpha" to set the transparency of the bar and gave it required figure size and title.
 
 At the end, we saved it as a png file by using "plt.savefig" code.
 ```
