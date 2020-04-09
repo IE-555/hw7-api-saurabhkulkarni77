@@ -202,5 +202,5 @@ Output of image is:
 ---
 
 ## Suggestions
-In addition to this, we can plot stacked version of bar plot per county in state.  
+In addition to this, we can plot stacked version of bar plot per county in state. Apart from this we can visualise city-wise hard to hear or deaf statistics and develop a rough insight from the statistics.
 
