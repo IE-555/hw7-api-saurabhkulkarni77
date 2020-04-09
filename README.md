@@ -24,14 +24,13 @@ Authors:  **Saurabh S Kulkarni**, **Keval U Patel**, and **Harsh S Dalal.**
 5)https://python-graph-gallery.com/161-custom-matplotlib-donut-plot/
 
 - The code retrieves data from
-1) https://data.mo.gov/ \
+1)https://data.mo.gov/ \
 2)https://dev.socrata.com/foundry/data.mo.gov/3vxz-wrn6
 ---
 
 ## Explanation of the Code
 First we install Sodapy by pip install Sodapy.
-Here, first we import the data through Sodapy and Socrata API.
-Along with the API, we also import all the necessary libraries for the proper execution of the code as well as visualising the data.
+Then code begins by importing all the necessary libraries.
 
 ``` 
 import matplotlib.pyplot as plt
@@ -41,8 +40,8 @@ from sodapy import Socrata
 import os
 import seaborn as sns
 ```
- 
-After the data has been called using API client, by providing app_token, username and password and arranged in the form of table/ rows and columns also known as the panda dataframe
+We will set up API TOKEN, USERNAME and PASSWORD as env variable to share it securely 
+To fetch data from API Client, We will provide app_token, username and password to API client and arrange the data in the form of table/ rows and columns also known as the panda dataframe
 
 ```
 app_token = os.environ.get('APP_TOKEN_ONLINEDATA_ASSIGNMENT')
@@ -74,7 +73,7 @@ size_for_bar = bar[2:]
 size_for_donut = donut[2:]
 fig1, ax1 = plt.subplots()
 ```
-The data has been plotted in three types, bar graph, pie chart and a circular pie chart (donut / torus shape).
+The data has been plotted in three types, bar graph, pie chart and a donut chart.
 First We will plot pie chart of 'Distribution of Deaf and Hard of hearing in Missouri state'
 we will asign labels to column names and sizes to values in Missouri state
 ``` 
@@ -113,7 +112,7 @@ The output from this code is shown below:
 ![Image of Plot](images/figuretwo.png) 
 
 
-plotting the Donut plot of 'Distribution in Andrew' county by using customized colors
+Next we will be plotting the Donut plot of 'Distribution in Andrew' county by using customized colors
 In this size_for_donut is values for Andrew county, labels are column names.
 We will create the centre circle to make a shape like donut.
 
