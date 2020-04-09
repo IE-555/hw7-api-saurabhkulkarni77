@@ -16,15 +16,15 @@ Authors:  **Saurabh S Kulkarni**, **Keval U Patel**, and **Harsh S Dalal.**
 ---
 
 ## Sources
-- Source code 
+- Source code \
 1)https://dev.socrata.com/foundry/data.mo.gov/3vxz-wrn6 \
 2)https://pythonspot.com/matplotlib-bar-chart/ \
 3)https://matplotlib.org/3.2.1/api/_as_gen/matplotlib.pyplot.pie.html \
 4)https://seaborn.pydata.org/generated/seaborn.boxplot.html \
 5)https://python-graph-gallery.com/161-custom-matplotlib-donut-plot/
 
-- The code retrieves data from
-1) https://data.mo.gov/
+- The code retrieves data from \
+1) https://data.mo.gov/ \
 2)https://dev.socrata.com/foundry/data.mo.gov/3vxz-wrn6
 ---
 
