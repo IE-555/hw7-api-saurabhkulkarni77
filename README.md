@@ -196,7 +196,7 @@ Output of image is:
 
 3. Type the following command:
 	```
-	python kulkarn3_kevalupe_harshsun_Missouri_Demographics.py.py
+	python kulkarn3_kevalupe_harshsun_Missouri_Demographics.py
 	```
 
 ---
