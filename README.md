@@ -112,7 +112,7 @@ The output from this code is shown below:
 
 ![Image of Plot](images/figuretwo.png) 
 
-```
+
 plotting the Donut plot of 'Distribution in Andrew' county by using customized colors
 In this size_for_donut is values for Andrew county, labels are column names.
 We will create the centre circle to make a shape like donut.
@@ -136,7 +136,7 @@ plt.close()
 The output from this code is shown below:
 
 ![Image of Plot](images/figurethree.png)
-``` 
+ 
 
 Here, The columns were coming in object form , so that to plot we have to convert them into numeric form. That's why we use "pd.to_numeric" code for that. And applied it to all columns except "county". Because "county" itself is a string.
 
@@ -172,7 +172,7 @@ plt.savefig('figurefour.png')
 Output of image is:
 
 ![Image of Plot](images/figurefour.png)
-``` 
+
 
 For the 2nd plot, we took the same filter which we used in the 1st plot. And then create a new dataframe with four columns and plot the bar graph. 
 
@@ -186,6 +186,7 @@ df.plot.bar(rot=90, logy =True, align='center', alpha=0.5, figsize=(20,10));
 Output of image is:
 
 ![Image of Plot](images/figurefive.png)
+
 ---
 
 ## How to Run the Code
