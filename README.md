@@ -23,7 +23,7 @@ Authors:  **Saurabh S Kulkarni**, **Keval U Patel**, and **Harsh S Dalal.**
 4)https://seaborn.pydata.org/generated/seaborn.boxplot.html \
 5)https://python-graph-gallery.com/161-custom-matplotlib-donut-plot/
 
-- The code retrieves data from \
+- The code retrieves data from
 1) https://data.mo.gov/ \
 2)https://dev.socrata.com/foundry/data.mo.gov/3vxz-wrn6
 ---
