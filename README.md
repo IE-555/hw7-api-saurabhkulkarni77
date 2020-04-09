@@ -40,7 +40,7 @@ from sodapy import Socrata
 import os
 import seaborn as sns
 ```
-We will set up API TOKEN, USERNAME and PASSWORD as env variable to share it securely 
+We will set up API TOKEN, USERNAME and PASSWORD as env variable to share it securely. 
 To fetch data from API Client, We will provide app_token, username and password to API client and arrange the data in the form of table/ rows and columns also known as the panda dataframe
 
 ```
