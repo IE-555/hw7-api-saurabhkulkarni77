@@ -150,7 +150,6 @@ Then, for plotting we need to set "county" as an index for this dataframe. So, w
 ```
 results_df = results_df.set_index('county')
 ```
-For the 1st bar plot, we can plot it directly without using any filters. But if we do that then the graph will be very complicated due to the large size of that.
 For the 1st bar plot, we can plot it directly without using any filters. But if we do that then the graph will be very complicated due to the large size of that. 
 
 So, we first filter the data with "total population" > 100000 (here, we can use any number as per requirements). 
